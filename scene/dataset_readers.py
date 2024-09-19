@@ -151,7 +151,7 @@ def readColmapSceneInfo(path, images, eval, llffhold=8):
     else:
         train_cam_infos = cam_infos
         test_cam_infos = []
-    sys.stdout.write(f'Train cameras: {len(train_cam_infos)}\tTest cameras: {len(test_cam_infos)}')
+    sys.stdout.write(f'Train cameras: {len(train_cam_infos)}\tTest cameras: {len(test_cam_infos)}\n')
 
 
     nerf_normalization = getNerfppNorm(train_cam_infos)
